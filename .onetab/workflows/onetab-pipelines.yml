@@ -1,5 +1,5 @@
 name: Starter Pipeline
-repoFullName: satishp-dev-satishp-dev/circleCI
+repoFullName: satishp-dev-satishp-dev/circleCI 
 on: 
   push:
     branches:
