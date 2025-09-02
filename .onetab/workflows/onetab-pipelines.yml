@@ -3,7 +3,7 @@ repoFullName: satishp-dev-satishp-dev/circleCI
 on: 
   push:
     branches:
-      - main 
+      - main
 jobs:
   run-stater:
     runs-on: ubuntu-latest
