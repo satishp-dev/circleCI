@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         node-version:
-          - 18.16.0
+          - 24.0.0
     steps:
       - uses: actions/checkout@v3
         name: Setup jobs
