@@ -4,7 +4,7 @@ import logger from 'winston';
 
 
 export default function App({ Component, pageProps }: AppProps) {
-   logger.info('ksdskdjksjdkdj');
+   // console.log('ksdskdjksjdkdj') // Consider removing this line or replace it with a proper logging mechanism
    logger.error('error');
    return <Component {...pageProps} />; 
  }
