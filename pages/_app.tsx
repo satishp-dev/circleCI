@@ -5,3 +5,5 @@ export default function App({ Component, pageProps }: AppProps) {
    // console.log("App rendered");
    return <Component {...pageProps} />; 
  }
+
+// Add a newline here
