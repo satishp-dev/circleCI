@@ -11,9 +11,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],  
 }); xxxxxxx.  
 
+const ICON_ALT_TEXT = 'Descriptive alt_text';
+
 export default function Home() {
   console.log('Index rendered')
-  const ICON_ALT_TEXT = 'Descriptive alt_text';
   return (
     <div
       className={`${geistSans.className} ${geistMono.className} homeStyle`}
