@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],  
 }); xxxxxxx.  
 
-const HOME_ICON_ALT_TEXT = 'Descriptive alt_text for home icon';
+const HOME_ICON_ALT_TEXT = 'Icon representing home';
 
 export default function Home() {
   console.log('Index rendered')
