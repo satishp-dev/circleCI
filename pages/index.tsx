@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 }); 
 
 export default function Home() {
-  console.log('Indexrend ered')
+  console.log('Indexrendered')
   return (
     <div
       className={`${geistSans.className} ${geistMono.className} homeStyle`}
