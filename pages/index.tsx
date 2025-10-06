@@ -91,7 +91,7 @@ export default function Home() {
           <Image
             aria-hidden
             src="/window.svg"
-            alt={HOME_ICON_ALT_TEXT}
+            alt={HOME_ICON_ALT_TEXT} 
             width={16}
             height={16}
           />
