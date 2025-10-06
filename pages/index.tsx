@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],  
 }); xxxxxxx.  
 
-const ICON_ALT_TEXT = 'Descriptive alt_text';
+const HOME_ICON_ALT_TEXT = 'Descriptive alt_text for home icon';
 
 export default function Home() {
   console.log('Index rendered')
@@ -91,7 +91,7 @@ export default function Home() {
           <Image
             aria-hidden
             src="/window.svg"
-            alt={ICON_ALT_TEXT}
+            alt={HOME_ICON_ALT_TEXT}
             width={16}
             height={16}
           />
