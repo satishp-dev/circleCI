@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   console.log('Index rendered')
+  const ICON_ALT_TEXT = '2w2323';
   return (
     <div
       className={`${geistSans.className} ${geistMono.className} homeStyle`}
@@ -89,10 +90,10 @@ export default function Home() {
           <Image
             aria-hidden
             src="/window.svg"
-            alt="Window icon"
+            alt={ICON_ALT_TEXT}
             width={16}
             height={16}
-          /> 2w2323.  
+          />
           Examples
         </a>
         <a
