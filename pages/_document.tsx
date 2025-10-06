@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
-  console.warn("Document rendered"); 
+  console.warn("Document rendere d"); 
   return (
     <Html lang="en">
       <Head />
