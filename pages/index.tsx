@@ -9,7 +9,7 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],  
-}); xxxxxxx.  
+}); xxxxxxx.   
 
 const HOME_ICON_ALT_TEXT = 'Icon representing home';
 
