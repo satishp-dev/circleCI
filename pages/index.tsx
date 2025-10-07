@@ -9,7 +9,7 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],  
-}); x
+}); // TODO: Add functionality or remove if not needed
 
 const HOME_ICON_ALT_TEXT = 'Icon representing home';
 
@@ -97,7 +97,7 @@ export default function Home() {
           />
           Examples
         </a>
-        <acccccccccccccc
+        <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
           target="_blank"
