@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 const HOME_ICON_ALT_TEXT = 'Icon representing home';
 
 export default function Home() {
-  console.log('Indexrendered')
+  console.log('Index rendered')
   return (
     <div
       className={`${geistSans.className} ${geistMono.className} homeStyle`}
