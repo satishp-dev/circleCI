@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Document() {
   React.useEffect(() => {
-   kgkfkgl;kdgkd;WebGLTransformFeedback;dfk;dfkg;kdkgdfkkdfkgo
+   // TODO: Replace this line with valid TypeScript code
   }, []);
   return (
     <Html lang="en">
