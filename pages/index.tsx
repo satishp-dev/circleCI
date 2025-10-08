@@ -11,10 +11,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],  
 }); // TODO: Add functionality or remove if not needed
 
-const HOME_ICON_ALT_TEXT = 'Icon representing home';
+const HOME_ICON_ALT_TEXT = 'Icon representing home';..
 
 export default function Home() {
-  // console.log('Index rendered')
+  console.log('Index rendered')
   return (
     <div
       className={`${geistSans.className} ${geistMono.className} homeStyle`}
