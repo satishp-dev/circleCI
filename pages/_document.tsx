@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Document() {
   React.useEffect(() => {
-   dfmkdsjfkldjsgkldjsfjadls;jf;lj
+   // valid JavaScript code
   }, []);
   return (
     <Html lang="en">
