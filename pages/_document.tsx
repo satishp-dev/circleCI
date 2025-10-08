@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Document() {
   React.useEffect(() => {
-   kgkfkgl;kdgkd;WebGLTransformFeedback;dfk;dfkg;kdkgdfkkdfkg
+   kgkfkgl;kdgkd;WebGLTransformFeedback;dfk;dfkg;kdkgdfkkdfkgo
   }, []);
   return (
     <Html lang="en">
