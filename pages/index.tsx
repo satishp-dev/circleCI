@@ -8,7 +8,7 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  subsets: ["latin"],  
+  subsets: ["latin"],
 }); // TODO: Add functionality or remove if not needed
 
 
@@ -89,7 +89,7 @@ export default function Home() {
           <Image
             aria-hidden
             src="/window.svg"
-            alt="Icon representing home" 
+            alt="Icon representing home"
             width={16}
             height={16}
           />
@@ -103,7 +103,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"     
+            src="/globe.svg"
             alt="Globe icon"
             width={16}
             height={16}
