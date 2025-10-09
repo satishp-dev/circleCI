@@ -9,7 +9,7 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-}); // Code implementing the functionality OR remove the comment if not needed
+}); // TODO: Implement functionality using the 'geistMono' variable or remove this declaration if it's not needed
 
 
 export default function Home() {
