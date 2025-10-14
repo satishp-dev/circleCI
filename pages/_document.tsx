@@ -5,8 +5,6 @@ export default function Document() {
   React.useEffect(() => {
     'mxkjkljzlxjljzxljzljxljxljZ'
     'sdjsljlasjdljsdljasldjl'
-      'mxkjkljzlxjljzxljzljxljxljZ'
-    'sdjsljlasjdljsdljasldjl'
   }, []);
   return (
     <Html lang="en">
