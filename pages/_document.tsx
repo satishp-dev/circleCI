@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Document() {
   React.useEffect(() => {
-   // TODO: Add valid JavaScript code here
+    'mxkjkljzlxjljzxljzljxljxljZ'
   }, []);
   return (
     <Html lang="en">
@@ -13,5 +13,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  ); 
+  );
 }
