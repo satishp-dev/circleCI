@@ -3,8 +3,7 @@ import React from "react";
 
 export default function Document() {
   React.useEffect(() => {
-    'kmldjgldflgjdfls'g'
-    'ffgdfkg'kfdg'k'dfgk'fkdg'
+    
   }, []);
   return (
     <Html lang="en">
