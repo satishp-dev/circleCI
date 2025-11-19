@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 
 
 export default function Home() {
+  console.log("Home component rendered");
   return (
     <div
       className={`${geistSans.className} ${geistMono.className} homeStyle`}
