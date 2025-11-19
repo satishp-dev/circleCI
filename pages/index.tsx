@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+import { useEffect } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,6 +14,9 @@ const geistMono = Geist_Mono({
 
 
 export default function Home() {
+  useEffect(() => {
+    console.log("Home component rendered");
+  }, []);
   return (
     <div
       className={`${geistSans.className} ${geistMono.className} homeStyle`}
