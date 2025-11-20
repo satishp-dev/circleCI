@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Document() {
   React.useEffect(() => {
-    console.log("Document component mounted");
+    
   }, []);
   return (
     <Html lang="en">
