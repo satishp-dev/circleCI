@@ -4,8 +4,7 @@ import logger from 'winston';
 
 export default function App({ Component, pageProps }: AppProps) {
    // Insert meaningful code here
-   logger.info('App component rendered')
-   
+console.log("jjjjj");
    
    return <Component {...pageProps} />;
 }
