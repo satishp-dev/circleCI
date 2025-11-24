@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Document() {
   React.useEffect(() => {
-    console.log("Document component rendered")
+    if (process.env.NODE_ENV !== 'production') { console.log("Document component rendered"); }
   }, []);
   return (
     <Html lang="en">
