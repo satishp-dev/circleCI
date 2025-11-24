@@ -1,4 +1,3 @@
-const config = {
 let person_age=100;
 
 if(person_age>=18)
