@@ -4,7 +4,7 @@ import React from "react";
 export default function Document() {
   /* Runs once after component mounts to log render */
   React.useEffect(() => {
-    consol.log('testing')
+    consol.log('testhhing')
   }, []);
   return (
     <Html lang="en">
