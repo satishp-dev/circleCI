@@ -4,7 +4,7 @@ import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) {
    // Insert meaningful code here
 
-   console.log('fhufhbheu')
+   // console.log('fhufhbheu')
 
    return <Component {...pageProps} />;
 }
