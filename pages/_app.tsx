@@ -3,8 +3,10 @@ import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
    // Insert meaningful code here
-   console.log("App component rendered")
-   console.log("App component rendered")
+
+console.log('jjjjj')
+   
+
    return <Component {...pageProps} />;
 }
 
