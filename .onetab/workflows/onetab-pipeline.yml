@@ -1,4 +1,4 @@
-name: Starter Pipeline  
+name: Starter Pipeline    
 repoFullName: satishp-dev-satishp-dev/circleCI
 on:
   push:
