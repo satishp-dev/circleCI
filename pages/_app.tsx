@@ -3,7 +3,9 @@ import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
    // Insert meaningful code here
+   console.log('duhdusdhuihsi')
    return <Component {...pageProps} />;
+   
    // console.log('Debug message')
 }
 
