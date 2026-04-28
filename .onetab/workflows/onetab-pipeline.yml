@@ -1,4 +1,4 @@
-name: Build Next js Application  
+name: Build Next js Application
 repoFullName: satishp-dev-satishp-dev/circleCI
 on:
   push:
