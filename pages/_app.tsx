@@ -4,7 +4,8 @@ export default function App({ Component, pageProps }: AppProps) {
    
    // Insert meaningful code here\ 
    
-   console.log('duhdusdhuihsi')
+   console.log('duhdusdhuihsi') 
+   console.log('duhdusdhuihsi') 
    
    return <Component {...pageProps} />;
    
