@@ -34,13 +34,7 @@ jobs:
         run: |
           yarn
           yarn build 
-          
-      - name: Build and Test
-        run: echo "Your build and test goes here..."
-      - name: Security scan
-        run: echo "Your security scan goes here..."
-      - name: Deployment to Production
-        run: echo "Your deployment to production script goes here..."
+
 
 
 # name: Build Next js Application
