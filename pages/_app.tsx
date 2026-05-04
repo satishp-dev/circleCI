@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }: AppProps) {
    
    // console.log('duhdusdhuihsi')
    
-   return <Component {...pageProps} />; 
+   return <Component {...pageProps} />;
    
    // console.log('Debug message')
 }
