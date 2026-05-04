@@ -5,10 +5,6 @@ type Data = {
   name: string;
 };
 
-for (let i = 0; i < 3; i++) {
-   console.log("print data", Data);
-}
-
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
