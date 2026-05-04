@@ -17,7 +17,7 @@ export default function handler(
     console.log("Client connected");
 
     // ❌ Mistake 3: Emitting inside connection without condition
-    socket.emit("message", "Hello from server");
+    if (someCondition) socket.emit("message", "Hello from server");
 
     // ❌ Mistake 4: Incorrect event listener (should match client event properly)
     socket.on("message", (msg: string) => {
