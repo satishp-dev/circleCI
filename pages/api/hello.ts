@@ -6,6 +6,8 @@ type Data = {
 };
 
 console.log("print data")
+console.log("print data")
+console.log("print data")
 
 export default function handler(
   req: NextApiRequest,
