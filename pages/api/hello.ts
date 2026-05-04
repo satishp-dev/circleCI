@@ -9,5 +9,26 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
 ) {
+   // ❌ Mistake 1: Not checking if socket server already exists (will re-init every request)
+  const io = new Server(res.socket.server);
+
+  // ❌ Mistake 2: Wrong event name usage and no typing
+  io.on("connect", (socket) => {
+    console.log("Client connected");
+
+    // ❌ Mistake 3: Emitting inside connection without condition
+    socket.emit("message", "Hello from server");
+
+    // ❌ Mistake 4: Incorrect event listener (should match client event properly)
+    socket.on("send-message", (msg) => {
+      console.log("Message:", msg);
+
+      // ❌ Mistake 5: Broadcasting wrongly (missing proper namespace/room logic)
+      io.emit("reply", msg);
+    });
+  });
+
+  // ❌ Mistake 6: No handling of HTTP methods (GET/POST etc.)
+
   res.status(200).json({ name: "John Doe" });
 }
