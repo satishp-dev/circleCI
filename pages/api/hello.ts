@@ -10,7 +10,7 @@ export default function handler(
   res: NextApiResponse<Data>,
 ) {
    // ❌ Mistake 1: Not checking if socket server already exists (will re-init every request)
-  const io = new Server(res.socket.server);
+  if (!res.socket.server.io) res.socket.server.io = new Server(res.socket.server); const io = res.socket.server.io;
 
   // ❌ Mistake 2: Wrong event name usage and no typing
   io.on("connect", (socket) => {
