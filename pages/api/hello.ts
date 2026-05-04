@@ -24,7 +24,7 @@ export default function handler(
       console.log("Message:", msg);
 
       // ❌ Mistake 5: Broadcasting wrongly (missing proper namespace/room logic)
-      io.emit("reply", msg);
+      socket.broadcast.emit("reply", msg);
     });
   });
 
