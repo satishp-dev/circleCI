@@ -5,7 +5,7 @@ type Data = {
   name: string;
 };
 
-console.log("print data")
+console.log("print data", Data)
 
 export default function handler(
   req: NextApiRequest,
