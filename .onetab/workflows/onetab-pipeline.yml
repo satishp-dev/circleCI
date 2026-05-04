@@ -30,6 +30,11 @@ jobs:
           git checkout main
           git pull https://satishp-dev:ghp_Di58n8eClx9ho1CDuj9xaTgNKRsp4T2v1xj@github.com/satishp-dev/circleCI.git main
   
+      - name: Build CircleCI
+        run: |
+          yarn
+          yarn build 
+          
       - name: Build and Test
         run: echo "Your build and test goes here..."
       - name: Security scan
