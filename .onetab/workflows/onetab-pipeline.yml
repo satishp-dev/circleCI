@@ -7,15 +7,33 @@ on:
 jobs:
   run-stater:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{env.workDir}}
+    strategy:
+      matrix:
+        node-version: [24.0.0]
     steps:
+      - name: Setup jobs
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Environment 
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: GitHub Setup
+        run: |
+          git checkout .
+          git checkout main
+          git pull https://satishp-dev:ghp_Di58n8eClx9ho1CDuj9xaTgNKRsp4T2v1xj@github.com/satishp-dev/circleCI.git main
+  
       - name: Build and Test
         run: echo "Your build and test goes here..."
-      - name: Lint
-        run: echo "Your linting goes here..."
       - name: Security scan
         run: echo "Your security scan goes here..."
-      - name: Deployment to Staging
-        run: echo "Your deployment to staging script goes here..."
       - name: Deployment to Production
         run: echo "Your deployment to production script goes here..."
 
