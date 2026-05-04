@@ -13,14 +13,14 @@ export default function handler(
   if (!res.socket.server.io) res.socket.server.io = new Server(res.socket.server); const io = res.socket.server.io;
 
   // ❌ Mistake 2: Wrong event name usage and no typing
-  io.on("connect", (socket) => {
+  io.on("connection", (socket: Socket) => {
     console.log("Client connected");
 
     // ❌ Mistake 3: Emitting inside connection without condition
     socket.emit("message", "Hello from server");
 
     // ❌ Mistake 4: Incorrect event listener (should match client event properly)
-    socket.on("send-message", (msg) => {
+    socket.on("message", (msg: string) => {
       console.log("Message:", msg);
 
       // ❌ Mistake 5: Broadcasting wrongly (missing proper namespace/room logic)
