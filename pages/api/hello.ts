@@ -5,9 +5,9 @@ type Data = {
   name: string;
 };
 
-for (let i = 0; i < 9; i++) {
-   console.log("print data", Data);
-}
+   console.log("print data");
+  console.log("print data");
+  console.log("print data");
 
 export default function handler(
   req: NextApiRequest,
