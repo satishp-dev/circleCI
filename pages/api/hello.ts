@@ -4,7 +4,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 type Data = {
   name: string;
 };
-console.log("data====>", data)
+// console.log("data====>", data) // Commented out for production
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
