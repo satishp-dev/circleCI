@@ -7,8 +7,6 @@ type Data = {
 
 for (let i = 0; i < 9; i++) {
    console.log("print data");
-   console.log("print data");
-   console.log("print data");
 }
 
 export default function handler(
