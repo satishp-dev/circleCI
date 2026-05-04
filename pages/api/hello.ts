@@ -30,5 +30,5 @@ export default function handler(
 
   // ❌ Mistake 6: No handling of HTTP methods (GET/POST etc.)
 
-  res.status(200).json({ name: "John Doe" });
+  if (req.method === 'GET') { res.status(200).json({ name: "John Doe" }); } else { res.status(405).end(); }
 }
