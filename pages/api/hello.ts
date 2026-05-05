@@ -4,7 +4,10 @@ import type { NextApiRequest, NextApiResponse } from "next";
 type Data = {
   name: string;  
 }; 
-console.log("data=======> x4", Data) 
+
+for(let i = 0; i < 4; i++) {
+  console.log(`data=======> x4 iteration: ${i+1}`);
+}
 
 export default function handler(
   req: NextApiRequest,
