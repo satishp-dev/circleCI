@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Document() {
   /* Runs once after component mounts to log render */
-  React.useEffect(() => {
+  React.useEffect(() => { 
     console.log('testhhing')  
   }, []); 
   return (
