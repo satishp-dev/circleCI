@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from "next"; 
 
 type Data = {
-  name: string;
+  name: string; 
 }; 
 console.log("data=======> x4", Data)
 console.log("Logging data for debugging purposes: ", data)
