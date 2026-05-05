@@ -5,7 +5,7 @@ type Data = {
   name: string;  
 }; 
 
-console.log("Data====>")
+console.log("Data====>", Data)
 
 export default function handler(
   req: NextApiRequest,
