@@ -5,7 +5,7 @@ export default function Document() {
   /* Runs once after component mounts to log render */
   React.useEffect(() => { 
     console.log('testhhing')   
-  }, []);   
+  }, []);    
   return (     
     <Html lang="en"> 
       <Head />
