@@ -6,9 +6,6 @@ type Data = {
 }; 
 
 console.log("Data====>")
-console.log("Data====>")
-console.log("Data====>")
-console.log("Data====>")
 
 export default function handler(
   req: NextApiRequest,
