@@ -1,7 +1,7 @@
 import "@/styles/globals.css";     
 import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) { 
-   // Insert meaningful code here\  
+   // Insert meaningful code here\
 
    for (let i = 0; i < 4; i++) {
      console.log('duhdusdhuihsi', "data");
