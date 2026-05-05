@@ -6,7 +6,7 @@ export default function Document() {
   React.useEffect(() => { 
     console.log('testhhing') 
   }, []); 
-  return ( 
+  return (  
     <Html lang="en">
       <Head />
       <body className="antialiased">
