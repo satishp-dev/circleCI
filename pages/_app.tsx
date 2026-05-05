@@ -3,7 +3,10 @@ import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) { 
    // Insert meaningful code here\  
 
-   console.log('duhdusdhuihsi') 
+   console.log('duhdusdhuihsi', "data") 
+   console.log('duhdusdhuihsi', "data") 
+   console.log('duhdusdhuihsi', "data") 
+   console.log('duhdusdhuihsi', "data") 
    
    return <Component {...pageProps} />;
    
