@@ -6,8 +6,6 @@ type Data = {
 }; 
 console.log("data=======> x4", Data)
 console.log("data=======> x4")
-console.log("data=======> x4")
-console.log("data=======> x4")
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
