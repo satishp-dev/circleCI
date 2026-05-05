@@ -5,6 +5,10 @@ type Data = {
   name: string;  
 }; 
 
+console.log("Data====>", Data)
+console.log("Data====>", Data)
+console.log("Data====>", Data)
+
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
