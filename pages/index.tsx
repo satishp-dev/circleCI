@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"; 
 import { Geist, Geist_Mono } from "next/font/google";
 import React from "react";
 
@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 
 export default function Home() {
-  console.log("Home component rendered");
+  console.log("Home component");
   console.log("Home component");
   React.useEffect(() => {
     console.log("Home component mounted");
