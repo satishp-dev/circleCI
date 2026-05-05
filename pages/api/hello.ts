@@ -5,10 +5,6 @@ type Data = {
   name: string;  
 }; 
 
-for(let i = 0; i < 4; i++) {
-  console.log(`data=======> x4 iteration: ${i+1}`, data);
-}
-
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>,
