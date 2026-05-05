@@ -3,10 +3,9 @@ import type { AppProps } from "next/app";
 export default function App({ Component, pageProps }: AppProps) { 
    // Insert meaningful code here\  
 
-   console.log('duhdusdhuihsi', "data") 
-   console.log('duhdusdhuihsi', "data") 
-   console.log('duhdusdhuihsi', "data") 
-   console.log('duhdusdhuihsi', "data") 
+   for (let i = 0; i < 4; i++) {
+     console.log('duhdusdhuihsi', "data");
+   }
    
    return <Component {...pageProps} />;
    
