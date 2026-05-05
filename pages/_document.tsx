@@ -7,7 +7,7 @@ export default function Document() {
     console.log('testhhing')     
   }, []);     
   return (     
-    <Html lang="en"> 
+    <Html lang="en">  
       <Head />
       <body className="antialiased">
         <Main />
