@@ -5,10 +5,9 @@ type Data = {
   name: string;  
 }; 
 
-console.log(`data=======> x4 iteration:`, data);
-console.log(`data=======> x4 iteration:`, data);
-console.log(`data=======> x4 iteration:`, data);
-console.log(`data=======> x4 iteration:`, data);
+for(let i = 0; i < 4; i++) {
+  console.log(`data=======> x4 iteration: ${i+1}`, data);
+}
 
 export default function handler(
   req: NextApiRequest,
