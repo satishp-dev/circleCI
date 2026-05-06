@@ -4,7 +4,8 @@ export default function App({ Component, pageProps }: AppProps) {
    // Insert meaningful code here\
 
    for (let i = 0; i < 4; i++) {
-     console.log('duhdusdhuihsi', "data");
+     console.log('duhdusdhuihsi', "data"); 
+       console.log('duhdusdhuihsi', "data"); 
    }
    
    return <Component {...pageProps} />;
