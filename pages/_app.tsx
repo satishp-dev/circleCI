@@ -5,7 +5,6 @@ export default function App({ Component, pageProps }: AppProps) {
 
    for (let i = 0; i < 4; i++) {
      console.log('duhdusdhuihsi', "data"); 
-       console.log('duhdusdhuihsi', "data"); 
    }
    
    return <Component {...pageProps} />;
